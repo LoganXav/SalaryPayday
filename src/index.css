@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "BR Firma", sans-serif;
+}
+.button {
+  padding: 11px 22px;
+  /* width: 183px; */
+  /* height: 64px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+  font-size: 15px;
+}
+.swiper .swiper-pagination {
+  transform: translateY(-9rem);
+}
+
+.swiper .swiper-pagination-bullet {
+  background-color: #fc8900;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
