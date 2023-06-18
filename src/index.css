@@ -4,11 +4,14 @@
 
 * {
   font-family: "BR Firma", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
+
 .button {
   padding: 11px 22px;
-  /* width: 183px; */
-  /* height: 64px; */
   display: flex;
   align-items: center;
   justify-content: center;

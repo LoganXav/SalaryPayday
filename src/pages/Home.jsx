@@ -22,7 +22,7 @@ import Footer from "../components/Footer";
 
 const Home = () => {
   return (
-    <>
+    <div className="w-[100vw]">
       <Navbar />
 
       <div className="flex flex-col gap-8 items-center relative">
@@ -217,7 +217,7 @@ const Home = () => {
         </section>
       </div>
       <Footer />
-    </>
+    </div>
   );
 };
 

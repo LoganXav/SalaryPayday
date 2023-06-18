@@ -27,7 +27,7 @@ export const theme = createTheme({
       fontWeight: "600",
     },
     p: {
-      fontSize: "12px",
+      fontSize: "14px",
       color: "#A4A4A4",
       letterSpacing: ".3px",
     },
