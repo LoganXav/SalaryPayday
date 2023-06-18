@@ -7,7 +7,9 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  overflow-x: hidden;
+  @media (max-width: 1023px) {
+    overflow-x: hidden;
+  }
 }
 
 .button {

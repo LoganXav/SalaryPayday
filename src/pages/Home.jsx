@@ -124,7 +124,7 @@ const Home = () => {
                 />
               </div>
               <div className="w-full flex flex-col lg:flex-row lg:justify-between gap-6 relative items-center">
-                <button className="button text-secondary lg:absolute lg:left-[43%] xl:left-[43.5%] top-[-35%]  bg-background">
+                <button className="button text-secondary hidden lg:flex lg:absolute lg:left-[43%] xl:left-[43.5%] top-[-35%]  bg-background">
                   Step 1
                 </button>
                 <div className="flex flex-col gap-6">
@@ -145,7 +145,7 @@ const Home = () => {
                 <img className="w-[400px] h-[292px]" src={step1} />
               </div>
               <div className="w-full flex flex-col gap-6 lg:flex-row-reverse lg:justify-between relative items-center">
-                <button className="button text-tertiary  lg:absolute lg:left-[43%] xl:left-[43.5%] top-[-15%] bg-background">
+                <button className="button text-tertiary hidden lg:flex lg:absolute lg:left-[43%] xl:left-[43.5%] top-[-15%] bg-background">
                   Step 2
                 </button>
                 <div className="flex flex-col gap-6 ">
@@ -166,7 +166,7 @@ const Home = () => {
                 <img className="w-[384px] h-[384px]" src={step2} />
               </div>
               <div className="w-full flex flex-col gap-6 lg:flex-row lg:justify-between relative items-center">
-                <button className="button text-secondary lg:absolute lg:left-[43%] xl:left-[43.5%] top-[-15%]  bg-background">
+                <button className="button text-secondary hidden lg:flex lg:absolute lg:left-[43%] xl:left-[43.5%] top-[-15%]  bg-background">
                   Step 3
                 </button>
                 <div className="flex flex-col gap-6">
